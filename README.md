@@ -3,11 +3,21 @@
 
 This project contains a chat room and a integration with Redis TB 
 
+:play_or_pause_button: Video: 
+
 [![Watch the video](https://img.youtube.com/vi/3qmcY8TxwWA/0.jpg)](https://youtu.be/3qmcY8TxwWA)
 
 ## Dependence
 
+You will need the Redis for this project, see how to install this in [Redis Download](https://redis.io/download)
+
 To run this project is necessary install the [Redis-cpp](https://github.com/tdv/redis-cpp) library and you'll need to install the boost
+
+Boost install:
+
+```
+sudo apt-get install libboost-all-dev
+```
 
 Redis-cpp install:
 
@@ -21,15 +31,10 @@ make
 make install  
 ```
 
-Bosst install:
-
-```
-sudo apt-get install libboost-all-dev
-```
 
 ## Run the project
 
-## Start Regis
+### Start Regis
 
 First of all we will need to start the Redis DB server
 
@@ -45,7 +50,7 @@ The image below should be appear.
 
 So Redis is running.
 
-## Start Chatroom server
+### Start Chatroom server
 
 This repository contains the executable files.
 
@@ -78,7 +83,7 @@ Next you need to choose a name between 2 and 30 characters.
 
 Start news clients and let's chat.
 
-### How to delete a message
+## How to delete a message
 
 To delete a message you'll type "--rm" and the **ID** of the message.
 
