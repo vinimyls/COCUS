@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vini/Desktop/COCUS/chatroom_serv/src/server.cpp
+iostream
+-
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+errno.h
+-
+string.h
+-
+pthread.h
+-
+sys/types.h
+-
+signal.h
+-
+atomic
+-
+sstream
+-
+redis-cpp/stream.h
+-
+redis-cpp/execute.h
+-
+

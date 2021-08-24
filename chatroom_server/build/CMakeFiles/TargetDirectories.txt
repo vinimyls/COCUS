@@ -1,0 +1,3 @@
+/home/vini/Desktop/COCUS/chatroom_serv/build/CMakeFiles/rebuild_cache.dir
+/home/vini/Desktop/COCUS/chatroom_serv/build/CMakeFiles/edit_cache.dir
+/home/vini/Desktop/COCUS/chatroom_serv/build/CMakeFiles/server.dir
